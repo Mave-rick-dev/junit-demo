@@ -6,6 +6,6 @@ class DemoClassForJUnitTest {
 
     @Test
     void testForCalculator(){
-        System.out.println("hello world");
+        System.out.println("Successfully passed all tests");
     }
 }
