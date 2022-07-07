@@ -6,6 +6,6 @@ class DemoClassForJUnitTest {
 
     @Test
     void testForCalculator(){
-        System.out.println("Successfully passed all tests");
+        System.out.println("test for git creds");
     }
 }
