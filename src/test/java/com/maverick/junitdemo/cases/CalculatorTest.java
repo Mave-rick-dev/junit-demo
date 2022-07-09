@@ -13,13 +13,13 @@ class CalculatorTest {
      * Naming convention: UnitOfWork_ExpectedBehavior_ScenarioUnderTest
      */
     @Test
-    @DisplayName("ADDITION-TEST-1")
-    void GIVE_ValidInputNumbers_WHEN_FunctionAddIsCalled_THEN_ReturnTheAccurateAddedResult() {
+    @DisplayName("Addition Test")
+    void GIVEN_TwoIntegerAsInput_WHEN_TheInputIsTwoInteger_THEN_PrintTheirSum() {
         Calculator calculator = new Calculator();
-        Integer actual = calculator.add(1, 2);
-        Integer expected = 3;
-        Assertions.assertEquals(expected, actual);
-        Assertions.assertFalse(() -> false, "message after falsification!!");
-
+        calculator.add(1, 2);
+        Assertions.assertEquals(3, calculator.add(1, 2));
     }
+
+    // assetEquals
+    // assertFalse
 }
